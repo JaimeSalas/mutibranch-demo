@@ -18,3 +18,6 @@ docker rmi $imageName 2>/dev/null || true
 
 # Run container
 docker run -d --name $containerName -e PORT=$appPort -p $appPort:$appPort $imageName
+
+# rhel podman
+# web assemblies
